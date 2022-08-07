@@ -1,0 +1,198 @@
+/*body*/
+
+.buddha img {
+  height: calc(100%-100px);
+  width: 100vw;
+}
+/*legacy of indian art forms*/
+
+#artforms {
+  background-color: #e2e2e2;
+}
+
+/* .parra {
+  height: 855px;
+  width: 100%;
+  margin-top: -4px;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-content: space-around;
+} */
+.artform-grid {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-content: space-around;
+  margin-top: -4px;
+}
+
+.block {
+  float: left;
+  height: 25px;
+  width: calc(80% - 15rem);
+  margin-left: calc(100% - 5rem);
+  margin-top: 0px;
+  background-color: maroon;
+}
+
+#lady {
+  height: 50%;
+  width: calc(80% - 2rem);
+  margin-top: calc(100% - 5rem);
+  margin-left: calc(100% - 5rem);
+  filter: drop-shadow(6px 9px 10px black);
+  box-shadow: -50px -57px maroon;
+}
+
+#heading1 {
+  padding: 3rem;
+  padding-bottom: 50px;
+  margin-bottom: 0%;
+  padding-left: 0px;
+  font-size: calc(1.5rem + 1vw);
+  font-family: "Comfortaa", cursive;
+  color: maroon;
+}
+
+#parra1 p {
+  padding: 1rem 3rem;
+  margin: 0px;
+  font-size: calc(1vw + 5px);
+  font-weight: 500;
+  width: calc(100% - 2rem);
+}
+
+/* who we are */
+
+#about-us {
+  background-color: rgb(247, 246, 226);
+  height: auto;
+}
+
+.grid-who {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  justify-content: space-around;
+  height: 38rem;
+  width: 100vw;
+}
+
+#heading2 {
+  padding: 3rem 5rem;
+  padding-top: 6rem;
+  color: maroon;
+  font-size: calc(1rem + 1vw);
+  font-family: noto system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+
+#parra2 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: calc(0.5rem + 1vw);
+  padding: 1rem 5rem;
+}
+
+.block-2 {
+  height: 1.5rem;
+  width: calc(60% - 10px);
+  background-color: maroon;
+  margin-left: calc(50% - 7rem);
+}
+
+#Picture2 {
+  height: calc(10% - 2rem);
+  width: calc(60% - 10px);
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1.5/1;
+  margin-top: calc(10% + 1.5rem);
+  margin-left: calc(50% - 10rem);
+  filter: drop-shadow(6px 9px 10px black);
+  box-shadow: 50px -30px maroon;
+}
+
+.mission {
+  position: relative;
+  background-color: rgb(94, 0, 0);
+  opacity: 1;
+  height: 22rem;
+  z-index: 0;
+}
+
+#parra3 {
+  position: relative;
+  z-index: 5;
+}
+
+#BG1 {
+  position: relative;
+  width: 100%;
+  opacity: 0.15;
+  height: 22rem;
+  z-index: -1;
+}
+
+#parra3 .mi-txt {
+  position: absolute;
+  bottom: 8rem;
+  left: calc(50% - 20rem);
+  color: antiquewhite;
+  font-size: x-large;
+  margin: auto calc(30% - 5rem);
+}
+
+#parra3 p {
+  padding: 0;
+  padding-right: calc(10% + 1rem);
+  font-size: calc(1rem + 1vw);
+  color: #faffe2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+[class*=" fa-"] {
+  float: left;
+  color: #faffe2;
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog {
+  width: 100%;
+  background-color: rgb(211 165 165);
+  opacity: 0.4;
+  position: relative;
+  z-index: 0;
+}
+
+#BG2 {
+  position: relative;
+  height: 1115px;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* @media (max-width: 900px) {
+  .buddha {
+    width: 100vw;
+    height: fit-content;
+  }
+  .block {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 15rem;
+  }
+  #lady {
+    margin-left: -200px;
+    margin-top: 8rem;
+    margin-right: 100px;
+    padding-right: 0px;
+    height: 20rem;
+    width: 13rem;
+    box-shadow: -40px -40px maroon;
+  }
+} */
